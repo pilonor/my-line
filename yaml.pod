@@ -1,3 +1,4 @@
+set nu
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -37,6 +38,6 @@ spec:
     app: my-app
   ports:
     - protocol: TCP
-      port: 80
-      targetPort: 9000
+      port: 800
+      targetPort: 8000
 
